@@ -1,0 +1,41 @@
+{
+  "researched_at": "2026-09-18",
+  "serpapi": {
+    "query": "organic anti inflammatory tea",
+    "location": "San Antonio, Texas, United States",
+    "paid_ads_returned": 4,
+    "local_services_ads_returned": 0,
+    "advertisers_observed": ["Full Leaf Tea Company", "Amazon"],
+    "account_usage_after_research": {
+      "plan": "Free Plan",
+      "used": 35,
+      "monthly_limit": 250
+    }
+  },
+  "google_ads_transparency": {
+    "advertiser": "Daniel Cavaretta",
+    "advertiser_id": "AR15770615733291057153",
+    "country": "United States",
+    "all_time_creatives": 23,
+    "last_30_days_creatives": 0,
+    "example_last_shown": "2025-12-12",
+    "example_format": "Image",
+    "advertiser_url": "https://adstransparency.google.com/advertiser/AR15770615733291057153?region=US"
+  },
+  "competitor_pages": [
+    {
+      "brand": "Full Leaf Tea Company",
+      "product": "Organic Anti-Inflammatory Tea",
+      "two_ounce_price_usd": 14.95,
+      "reviews": 639,
+      "evidence_url": "https://fullleafteacompany.com/products/organic-anti-inflammatory-tea",
+      "observed_gap": "Tea Relief lists its two-ounce Organic Anti-Inflammation Tea at $29.99 with 4 reviews. Formulations differ, so this is a storefront-positioning comparison, not a product-equivalence claim."
+    },
+    {
+      "brand": "Traditional Medicinals",
+      "evidence_url": "https://www.traditionalmedicinals.com/pages/quality",
+      "visible_trust_markers": ["USDA Organic", "B Corp", "quality and sourcing narrative"],
+      "observed_gap": "Established wellness-tea competitors place recognized proof and sourcing standards prominently."
+    }
+  ]
+}

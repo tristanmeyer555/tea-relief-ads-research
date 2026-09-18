@@ -1,0 +1,40 @@
+{
+  "researched_at": "2026-09-18",
+  "site": "https://theteareliefcompany.com/",
+  "commerce": {
+    "platform": "Shopify",
+    "products_returned": 76,
+    "available_products": 73,
+    "available_under_20_usd": 58,
+    "available_20_to_40_usd": 12,
+    "available_over_40_usd": 3,
+    "free_shipping_threshold_usd": 60,
+    "anti_inflammation_default_variant_usd": 29.99,
+    "anti_inflammation_sample_variant_usd": 14.99,
+    "tea_ritual_subscription_usd": 27,
+    "calm_sleep_bundle_usd": 49.99
+  },
+  "tracking_source_inspection": {
+    "google_ads_tag": "AW-16946943516",
+    "merchant_center_destination": "MC-C4KH3M94S3",
+    "configured_events": ["page_view", "view_item", "search", "add_to_cart", "begin_checkout", "add_payment_info", "purchase"],
+    "scope_note": "Presence in rendered source does not verify firing, revenue accuracy, deduplication, or attribution."
+  },
+  "readiness_findings": [
+    {
+      "finding": "Subscription app block failed to render in product-page HTML",
+      "evidence": "Shopify HTML comment names a missing Appstle subscription product page block",
+      "impact": "Recurring-purchase UX should be tested and repaired before paid acquisition."
+    },
+    {
+      "finding": "Indexable test page",
+      "evidence": "https://theteareliefcompany.com/pages/test321123 appears in the live Shopify page sitemap and returns HTTP 200",
+      "impact": "Remove or noindex staging content before launch."
+    },
+    {
+      "finding": "Healthcare policy exposure",
+      "evidence": "The catalog and navigation use condition-led names including fertility, blood pressure, blood sugar, PCOS, thyroid, prostate, IBS, pain, and endometriosis.",
+      "impact": "Product-by-product Merchant Center and ad-policy review is required before feed activation."
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Google Ads opportunity research for The Tea Relief Company.">
+  <title>Tea Relief Company — Google Ads Opportunity Brief</title>
+  <style>
+    :root{
+      --ink:#183229;
+      --ink-2:#315047;
+      --paper:#f8f3e8;
+      --card:#fffdf7;
+      --line:#d8ddcf;
+      --sage:#8aa184;
+      --sage-2:#dfe8da;
+      --orange:#ed8a00;
+      --orange-2:#fff0d8;
+      --red:#a74435;
+      --red-2:#fae8e3;
+      --green:#306a4d;
+      --shadow:0 24px 60px rgba(31,52,42,.10);
+      --radius:24px;
+      --max:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% 4%,rgba(237,138,0,.13),transparent 24rem),
+        radial-gradient(circle at 92% 15%,rgba(138,161,132,.22),transparent 30rem),
+        var(--paper);
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .shell{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .topbar{
+      position:sticky;top:0;z-index:20;
+      backdrop-filter:blur(16px);
+      background:rgba(248,243,232,.86);
+      border-bottom:1px solid rgba(49,80,71,.12)
+    }
+    .nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:800;letter-spacing:-.02em}
+    .brandmark{
+      width:36px;height:36px;border-radius:50% 50% 48% 52%;
+      display:grid;place-items:center;color:white;background:var(--ink);
+      transform:rotate(-8deg)
+    }
+    .brandmark svg{width:20px;transform:rotate(8deg)}
+    .navlinks{display:flex;gap:22px;align-items:center;font-size:13px;font-weight:700;color:var(--ink-2)}
+    .navlinks a{text-decoration:none}
+    .navlinks a:hover{color:var(--orange)}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:8px;
+      font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--green)
+    }
+    .eyebrow:before{content:"";width:28px;height:2px;background:var(--orange)}
+    .hero{padding:86px 0 48px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:46px;align-items:end}
+    h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.035em;line-height:1.05;margin:0}
+    h1{font-size:clamp(54px,8vw,104px);max-width:900px}
+    h1 span{color:var(--orange)}
+    .dek{font-size:clamp(18px,2.2vw,24px);max-width:770px;color:var(--ink-2);margin:26px 0 0}
+    .meta{font-size:13px;color:#61736b;margin-top:24px}
+    .hero-note{
+      background:var(--ink);color:#fff;border-radius:34px;padding:34px;
+      box-shadow:var(--shadow);position:relative;overflow:hidden
+    }
+    .hero-note:after{
+      content:"";position:absolute;width:180px;height:180px;border:28px solid rgba(255,255,255,.06);
+      border-radius:50%;right:-72px;bottom:-82px
+    }
+    .hero-note .kicker{font-size:11px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:#bad0c3}
+    .hero-note .verdict{font-family:Georgia,serif;font-size:29px;line-height:1.2;margin-top:14px}
+    .hero-note p{color:#d7e3dc;margin:18px 0 0;font-size:14px}
+    .label{
+      display:inline-flex;align-items:center;gap:6px;padding:5px 9px;border-radius:999px;
+      text-transform:uppercase;letter-spacing:.08em;font-size:10px;font-weight:900
+    }
+    .measured{background:var(--sage-2);color:var(--green)}
+    .modelled{background:var(--orange-2);color:#925500}
+    .assumption{background:#e9e8f5;color:#545080}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:36px 0 0}
+    .stat{background:rgba(255,253,247,.82);border:1px solid var(--line);border-radius:20px;padding:22px;min-height:176px}
+    .stat strong{display:block;font-family:Georgia,serif;font-size:38px;line-height:1;color:var(--ink);margin:17px 0 8px}
+    .stat p{margin:0;color:var(--ink-2);font-size:13px}
+    section{padding:72px 0}
+    .section-head{display:grid;grid-template-columns:.7fr 1.3fr;gap:40px;margin-bottom:34px;align-items:end}
+    .section-head h2{font-size:clamp(38px,5vw,66px)}
+    .section-head p{margin:0;color:var(--ink-2);font-size:17px;max-width:680px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:0 10px 32px rgba(31,52,42,.055)}
+    .card h3{font-size:26px;margin-top:12px}
+    .card p{color:var(--ink-2)}
+    .callout{border-left:4px solid var(--orange);padding-left:18px}
+    .bars{display:grid;gap:22px}
+    .bar-row{display:grid;grid-template-columns:180px 1fr 88px;gap:18px;align-items:center}
+    .bar-label{font-size:13px;font-weight:800}
+    .bar-track{height:14px;background:#e5e6dc;border-radius:999px;overflow:hidden}
+    .bar-fill{height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--sage),var(--orange))}
+    .bar-value{text-align:right;font-family:Georgia,serif;font-size:23px}
+    .fine{font-size:12px;color:#6d7b74}
+    .keyword-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:26px}
+    .keyword{
+      border:1px solid var(--line);border-radius:16px;padding:15px;background:#fff;
+      display:flex;flex-direction:column;gap:7px
+    }
+    .keyword b{font-size:14px}
+    .keyword .row{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--ink-2)}
+    .signal{
+      background:var(--ink);color:#fff;position:relative;overflow:hidden
+    }
+    .signal p,.signal .fine{color:#d6e0db}
+    .signal .big{font:58px/1 Georgia,serif;color:#fff;margin:14px 0 7px}
+    .signal .mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+    .signal .mini{border:1px solid rgba(255,255,255,.17);border-radius:16px;padding:16px}
+    .signal .mini strong{font-size:24px;display:block}
+    .timeline{display:grid;gap:12px}
+    .event{display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line)}
+    .event:last-child{border:0}
+    .event time{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;color:var(--green)}
+    .event b{display:block;margin-bottom:3px}
+    .event p{margin:0;font-size:14px}
+    .comparison{overflow:auto;border:1px solid var(--line);border-radius:22px}
+    table{width:100%;border-collapse:collapse;min-width:680px;background:var(--card)}
+    th,td{padding:17px 20px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+    th{font-size:11px;text-transform:uppercase;letter-spacing:.1em;background:#edf1e9;color:var(--ink-2)}
+    tr:last-child td{border-bottom:0}
+    td strong{display:block}
+    .good{color:var(--green);font-weight:800}
+    .warn{color:#9a5a00;font-weight:800}
+    .risk{color:var(--red);font-weight:800}
+    .math{
+      background:linear-gradient(135deg,#fff7e8,#f4f2e6);
+      border:1px solid #e6d5b5;border-radius:28px;padding:30px
+    }
+    .formula{font-family:Georgia,serif;font-size:clamp(24px,4vw,40px);margin:16px 0;color:#6d4510}
+    .economics{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;align-items:stretch}
+    .aov-list{display:grid;gap:12px}
+    .aov{
+      display:grid;grid-template-columns:1fr 85px;gap:14px;align-items:center;
+      padding:15px 16px;border:1px solid var(--line);border-radius:16px;background:#fff
+    }
+    .aov span{font-size:13px;color:var(--ink-2)}
+    .aov strong{text-align:right;font-family:Georgia,serif;font-size:24px}
+    .plan{counter-reset:steps;display:grid;gap:16px}
+    .step{
+      counter-increment:steps;display:grid;grid-template-columns:64px 1fr;gap:20px;
+      padding:25px;border:1px solid var(--line);border-radius:22px;background:var(--card)
+    }
+    .step:before{
+      content:counter(steps,decimal-leading-zero);width:54px;height:54px;border-radius:17px;
+      display:grid;place-items:center;background:var(--ink);color:white;font-family:Georgia,serif;font-size:22px
+    }
+    .step h3{font-size:25px;margin:2px 0 9px}
+    .step p{margin:0;color:var(--ink-2)}
+    .step ul{margin:12px 0 0;padding-left:19px;color:var(--ink-2)}
+    .step li+li{margin-top:6px}
+    .risk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .risk-card{border-radius:22px;padding:24px;border:1px solid}
+    .risk-card.high{background:var(--red-2);border-color:#e5bcb3}
+    .risk-card.med{background:var(--orange-2);border-color:#edd0a2}
+    .risk-card.ready{background:var(--sage-2);border-color:#bfd0b8}
+    .risk-card .level{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.12em}
+    .risk-card h3{font-size:24px;margin:10px 0}
+    .risk-card p{margin:0;font-size:14px;color:var(--ink-2)}
+    .angle{position:relative;padding-top:70px}
+    .angle .num{position:absolute;top:13px;right:22px;font:64px/1 Georgia,serif;color:#dfe5da}
+    .angle .quote{font-family:Georgia,serif;font-size:25px;line-height:1.22;margin:12px 0 0}
+    .source-list{display:grid;gap:10px}
+    .source{
+      display:flex;justify-content:space-between;gap:18px;align-items:center;
+      padding:13px 0;border-bottom:1px solid var(--line);font-size:13px
+    }
+    .source:last-child{border-bottom:0}
+    .source a{font-weight:800;color:var(--green);text-decoration-thickness:1px;text-underline-offset:3px}
+    footer{background:var(--ink);color:white;margin-top:66px;padding:54px 0}
+    .footer-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px}
+    footer h2{font-size:45px}
+    footer p{color:#c8d6cf;max-width:620px}
+    footer .fine{color:#aabdb4}
+    .print-note{display:none}
+    @media (max-width:900px){
+      .hero-grid,.section-head,.economics{grid-template-columns:1fr}
+      .stats{grid-template-columns:repeat(2,1fr)}
+      .grid-3,.risk-grid{grid-template-columns:1fr}
+      .keyword-grid{grid-template-columns:repeat(2,1fr)}
+      .navlinks{display:none}
+      .hero{padding-top:56px}
+      h1{font-size:58px}
+    }
+    @media (max-width:640px){
+      .shell{width:min(100% - 24px,var(--max))}
+      .stats,.grid-2,.keyword-grid{grid-template-columns:1fr}
+      .stat{min-height:auto}
+      .bar-row{grid-template-columns:1fr 64px;gap:8px}
+      .bar-track{grid-column:1/-1;grid-row:2}
+      .event{grid-template-columns:1fr;gap:5px}
+      .step{grid-template-columns:1fr}
+      .footer-grid{grid-template-columns:1fr}
+      section{padding:52px 0}
+      .hero-note{padding:26px}
+      h1{font-size:49px}
+    }
+    @media print{
+      .topbar{display:none}
+      body{background:#fff}
+      .hero{padding-top:35px}
+      .card,.stat,.hero-note{box-shadow:none;break-inside:avoid}
+      section{padding:40px 0}
+      .print-note{display:block}
+      a{text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell nav">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brandmark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M19.5 3.8C11.7 4.3 6 7.8 4.8 14.3c-.5 2.8 1.6 5.5 4.5 5.4 6.7-.2 9.8-7.8 10.2-15.9Z" stroke="currentColor" stroke-width="1.8"/><path d="M5.9 18.5c2.7-4.4 6-7.4 10.4-9.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+        Tea Relief · Ads Brief
+      </a>
+      <nav class="navlinks" aria-label="Report sections">
+        <a href="#demand">Demand</a>
+        <a href="#competition">Competition</a>
+        <a href="#economics">Economics</a>
+        <a href="#plan">Launch plan</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Google Ads opportunity brief</div>
+            <h1>Demand is real.<br><span>Profit needs a plan.</span></h1>
+            <p class="dek">Tea Relief has a credible founder story, distinctive condition-led blends, and meaningful national search demand. The strongest path is a controlled relaunch built around bundles, compliant claims, and a few hero products.</p>
+            <p class="meta">Prepared for The Tea Relief Company · National U.S. market · September 18, 2026</p>
+          </div>
+          <aside class="hero-note">
+            <div class="kicker">Executive verdict</div>
+            <div class="verdict">Relaunch—but earn the right to scale.</div>
+            <p>Start with three tightly separated themes, repair the subscription path, verify purchase revenue, and clear products through Merchant Center before turning on broad automation.</p>
+          </aside>
+        </div>
+
+        <div class="stats" aria-label="Headline findings">
+          <div class="stat">
+            <span class="label measured">Measured</span>
+            <strong>124,510</strong>
+            <p>monthly U.S. searches across 21 representative, deduplicated phrases.</p>
+          </div>
+          <div class="stat">
+            <span class="label measured">Measured</span>
+            <strong>4 ads</strong>
+            <p>appeared on the live “organic anti inflammatory tea” results page in San Antonio.</p>
+          </div>
+          <div class="stat">
+            <span class="label measured">Measured</span>
+            <strong>23 → 0</strong>
+            <p>Tea Relief historical Google creatives versus zero shown in the last 30 days.</p>
+          </div>
+          <div class="stat">
+            <span class="label measured">Measured</span>
+            <strong>58 / 73</strong>
+            <p>available products start below $20—making basket size central to paid-search economics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demand">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">01 · Search demand</div>
+            <h2>Plenty of interest. Uneven economics.</h2>
+          </div>
+          <p>Google Keyword Planner shows exact national demand from an active-spend account. The best opening campaigns balance volume, policy exposure, landing-page fit, and expected click cost.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <span class="label measured">Measured · searches / month</span>
+            <h3>Representative demand clusters</h3>
+            <p class="fine">Selected phrases only. Close-variant duplicates were collapsed using identical volume and bid fingerprints.</p>
+            <div class="bars" style="margin-top:28px">
+              <div class="bar-row">
+                <div class="bar-label">Inflammation + pain</div>
+                <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+                <div class="bar-value">54.8k</div>
+              </div>
+              <div class="bar-row">
+                <div class="bar-label">Detox + broad wellness</div>
+                <div class="bar-track"><div class="bar-fill" style="width:70.2%"></div></div>
+                <div class="bar-value">38.5k</div>
+              </div>
+              <div class="bar-row">
+                <div class="bar-label">Calm + sleep + gut</div>
+                <div class="bar-track"><div class="bar-fill" style="width:52.3%"></div></div>
+                <div class="bar-value">28.7k</div>
+              </div>
+              <div class="bar-row">
+                <div class="bar-label">Fertility + women</div>
+                <div class="bar-track"><div class="bar-fill" style="width:4.6%"></div></div>
+                <div class="bar-value">2.54k</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <span class="label measured">Measured · Google planning range</span>
+            <h3>Click economics vary by theme</h3>
+            <p>The high end of the top-of-page bid range is modest for anti-inflammatory searches and much more demanding for fertility terms.</p>
+            <div class="keyword-grid">
+              <div class="keyword"><b>anti inflammatory tea</b><div class="row"><span>27,100/mo</span><span>$0.03–$0.62</span></div></div>
+              <div class="keyword"><b>turmeric tea</b><div class="row"><span>22,200/mo</span><span>$0.03–$0.95</span></div></div>
+              <div class="keyword"><b>detox tea</b><div class="row"><span>22,200/mo</span><span>$0.15–$1.32</span></div></div>
+              <div class="keyword"><b>sleep tea</b><div class="row"><span>9,900/mo</span><span>$0.09–$1.92</span></div></div>
+              <div class="keyword"><b>digestive tea</b><div class="row"><span>3,600/mo</span><span>$0.06–$1.61</span></div></div>
+              <div class="keyword"><b>fertility tea</b><div class="row"><span>2,400/mo</span><span>$0.98–$5.26</span></div></div>
+            </div>
+            <p class="fine" style="margin-top:18px">Bid ranges are directional planning signals. Actual CPC will depend on the auction, targeting, relevance, and account performance. Every displayed term had “High” Google Ads competition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competition">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">02 · Competitive pressure</div>
+            <h2>The shelf is occupied.</h2>
+          </div>
+          <p>The live search page shows an active auction: Full Leaf Tea Company and Amazon were buying visibility on the exact anti-inflammatory query, while Google’s transparency center showed zero Tea Relief creatives in the last 30 days.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card signal">
+            <span class="label measured">Live SERP · San Antonio</span>
+            <div class="big">4 paid ads</div>
+            <p>on “organic anti inflammatory tea.” Full Leaf Tea Company and Amazon appeared in the paid results. Local Services Ads: 0, which is expected for ecommerce tea.</p>
+            <div class="mini-grid">
+              <div class="mini"><strong>Full Leaf</strong><span class="fine">direct specialty competitor</span></div>
+              <div class="mini"><strong>Amazon</strong><span class="fine">marketplace alternative</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <span class="label measured">Google Ads Transparency</span>
+            <h3>Past experience with an open relaunch window</h3>
+            <div class="timeline">
+              <div class="event">
+                <time>All time</time>
+                <div><b>23 creatives found</b><p>Google identifies the verified U.S. advertiser as Daniel Cavaretta.</p></div>
+              </div>
+              <div class="event">
+                <time>Dec. 12, 2025</time>
+                <div><b>Example creative last shown</b><p>A prostate / anti-inflammatory product image ad appears in the archive.</p></div>
+              </div>
+              <div class="event">
+                <time>Last 30 days</time>
+                <div><b>0 ads found</b><p>The account has historical creative experience and a clear opportunity to regain coverage.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:20px">
+          <span class="label measured">Storefront comparison</span>
+          <h3>A direct anti-inflammatory benchmark</h3>
+          <p class="fine">Observed product pages on September 18, 2026. This is a storefront-positioning comparison across products with different formulations.</p>
+          <div class="comparison" style="margin-top:22px">
+            <table>
+              <thead><tr><th>Signal</th><th>Tea Relief</th><th>Full Leaf Tea Company</th><th>What it means</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><strong>2 oz listed price</strong></td>
+                  <td>$29.99</td>
+                  <td>$14.95</td>
+                  <td class="warn">Tea Relief needs a clear value story beyond “organic loose leaf.”</td>
+                </tr>
+                <tr>
+                  <td><strong>Visible reviews</strong></td>
+                  <td>4</td>
+                  <td>639</td>
+                  <td class="risk">Visible trust signals will influence conversion alongside ad relevance.</td>
+                </tr>
+                <tr>
+                  <td><strong>Current ad presence</strong></td>
+                  <td>0 creatives in last 30 days</td>
+                  <td>Observed on live paid results</td>
+                  <td class="warn">Competitors are collecting high-intent visits now.</td>
+                </tr>
+                <tr>
+                  <td><strong>Tea Relief advantage</strong></td>
+                  <td>Texas founder story; small-batch; 99% U.S. farmer sourcing claim</td>
+                  <td>Scale, awards, review volume</td>
+                  <td class="good">Lead with verifiable provenance, ritual, and founder-story proof.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="economics">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">03 · Profitability gate</div>
+            <h2>The basket must outrun the click.</h2>
+          </div>
+          <p>Most of the catalog begins below $20, while free shipping starts at $60. Bundles, subscriptions, and repeat purchase therefore belong at the center of the media strategy.</p>
+        </div>
+
+        <div class="economics">
+          <div class="math">
+            <span class="label modelled">Modelled · decision aid</span>
+            <div class="formula">Break-even CPC = AOV × margin × conversion rate</div>
+            <p>Illustrative only: 60% contribution margin and a 3% purchase rate. Replace both with Shopify and cost-of-goods data before setting a budget.</p>
+            <div class="callout">
+              <p><strong>Why this matters:</strong> at a $29.99 order, those assumptions support about $0.54 per click before repeat-purchase value. Some inflammation searches could fit that threshold; fertility terms would require stronger conversion, basket value, or lifetime value.</p>
+            </div>
+          </div>
+          <div class="card">
+            <span class="label modelled">Required AOV at high bid range</span>
+            <h3>What the click would ask of the basket</h3>
+            <div class="aov-list" style="margin-top:20px">
+              <div class="aov"><span><b>Anti-inflammatory tea</b><br>$0.62 high bid signal</span><strong>$34</strong></div>
+              <div class="aov"><span><b>Stress relief tea</b><br>$1.08 high bid signal</span><strong>$60</strong></div>
+              <div class="aov"><span><b>Digestive tea</b><br>$1.61 high bid signal</span><strong>$90</strong></div>
+              <div class="aov"><span><b>Sleep tea</b><br>$1.92 high bid signal</span><strong>$107</strong></div>
+              <div class="aov"><span><b>Fertility tea</b><br>$5.26 high bid signal</span><strong>$292</strong></div>
+            </div>
+            <p class="fine" style="margin-top:15px">Rounded break-even sensitivity check. Actual CPC, margin, conversion rate, refund rate, and lifetime value will determine the result.</p>
+          </div>
+        </div>
+
+        <div class="grid-3" style="margin-top:20px">
+          <div class="card">
+            <span class="label measured">Measured</span>
+            <h3>$14.99–$29.99</h3>
+            <p>Current anti-inflammatory product variants. Useful for trial, but a one-item cold-search order leaves little room at higher CPCs.</p>
+          </div>
+          <div class="card">
+            <span class="label measured">Measured</span>
+            <h3>$49.99</h3>
+            <p>Current Calm & Sleep bundle. This is closer to a workable acquisition basket and should be tested as a landing offer.</p>
+          </div>
+          <div class="card">
+            <span class="label assumption">Needs client data</span>
+            <h3>AOV + margin + repeat</h3>
+            <p>A responsible budget and ROAS target require these three verified Shopify inputs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="readiness">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">04 · Store readiness</div>
+            <h2>Good plumbing. Three launch risks.</h2>
+          </div>
+          <p>The storefront source includes a Google Ads tag, Merchant Center destination, and configured ecommerce events. The next step is verifying event firing, deduplication, order IDs, revenue, and currency.</p>
+        </div>
+
+        <div class="risk-grid">
+          <div class="risk-card ready">
+            <div class="level">Foundation present</div>
+            <h3>Commerce events</h3>
+            <p>Page view, product view, add to cart, checkout, payment, and purchase events are configured through Shopify’s Google integration. Test order and value accuracy before launch.</p>
+          </div>
+          <div class="risk-card high">
+            <div class="level">High priority</div>
+            <h3>Health-claim policy</h3>
+            <p>The catalog uses condition-led names including fertility, blood pressure, blood sugar, PCOS, thyroid, prostate, IBS, pain, and endometriosis. Google restricts products marketed as preventing, curing, or treating ailments.</p>
+          </div>
+          <div class="risk-card high">
+            <div class="level">High priority</div>
+            <h3>Subscription block error</h3>
+            <p>The rendered product HTML reports a failed Appstle subscription block. Fix and test recurring purchase before traffic arrives, because repeat purchase is central to the economics.</p>
+          </div>
+          <div class="risk-card med">
+            <div class="level">Medium priority</div>
+            <h3>Trust gap</h3>
+            <p>Full Leaf shows 639 reviews on the comparison product; Tea Relief shows 4. Traditional Medicinals prominently displays USDA Organic and B Corp proof. Surface Tea Relief’s own verifiable proof more clearly.</p>
+          </div>
+          <div class="risk-card med">
+            <div class="level">Medium priority</div>
+            <h3>Index hygiene</h3>
+            <p>A live page named “test321123” is included in the Shopify sitemap and returns 200. Remove or noindex staging pages before campaign landing-page review.</p>
+          </div>
+          <div class="risk-card ready">
+            <div class="level">Useful asset</div>
+            <h3>Founder differentiation</h3>
+            <p>Daniel and Daphne’s Texas, family, fertility, and small-batch story is more defensible than generic “best wellness tea” copy—provided every supporting claim is documented.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plan">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">05 · Recommended launch</div>
+            <h2>A staged, evidence-led relaunch.</h2>
+          </div>
+          <p>The first goal is to learn which product and basket can acquire a new customer profitably. Clean measurement and approved products establish the foundation for automation.</p>
+        </div>
+
+        <div class="plan">
+          <article class="step">
+            <div>
+              <span class="label">Stage 1</span>
+              <h3>Clear the runway</h3>
+              <p>Validate what Google will measure and what Google will approve.</p>
+              <ul>
+                <li>Place test orders; confirm one purchase, one order ID, correct revenue, and correct currency in Google Ads and GA4.</li>
+                <li>Review Merchant Center diagnostics SKU by SKU; separate approved wellness products from condition-led products.</li>
+                <li>Repair the subscription widget and remove the indexable test page.</li>
+                <li>Pull actual AOV, contribution margin, repeat rate, refund rate, and new-customer conversion rate.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="step">
+            <div>
+              <span class="label">Stage 2</span>
+              <h3>Launch three controlled lanes</h3>
+              <p>Keep intent, economics, and policy risk separated.</p>
+              <ul>
+                <li><b>Lane A — Calm / Sleep:</b> exact and phrase Search to the $49.99 bundle and relevant products.</li>
+                <li><b>Lane B — Digestion / Detox:</b> high-intent terms with dedicated product or collection landing pages.</li>
+                <li><b>Lane C — Anti-inflammatory / Turmeric:</b> only after claim and feed review; use the founder, sourcing, and ingredient story.</li>
+                <li>Run brand Search separately. Use a tightly limited Shopping campaign for approved SKUs; hold condition-heavy products out.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="step">
+            <div>
+              <span class="label">Stage 3</span>
+              <h3>Scale proven demand</h3>
+              <p>Expand only from real order economics.</p>
+              <ul>
+                <li>Move budget toward themes producing first-order contribution profit or a documented payback window.</li>
+                <li>Test $49–$69 concern-led bundles, subscription attachment, and a free-shipping basket.</li>
+                <li>Add Performance Max only after approved feed coverage and enough clean purchase-value data.</li>
+                <li>Keep fertility and disease-adjacent terms in a separate policy-reviewed expansion plan.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sources">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">06 · Evidence & method</div>
+            <h2>Evidence, scope, and method.</h2>
+          </div>
+          <p>The public evidence supports an opportunity case. A budget requires account access and verified Shopify economics; competitor spend, Tea Relief spend, current CPA, and revenue remain outside this research scope.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Primary sources</h3>
+            <div class="source-list">
+              <div class="source"><span>Google Keyword Planner research data</span><a href="keyword-planner-national-en.json">Open data</a></div>
+              <div class="source"><span>Condition-term check</span><a href="keyword-planner-condition-check.json">Open data</a></div>
+              <div class="source"><span>Competitive evidence log</span><a href="competitive-evidence.json">Open data</a></div>
+              <div class="source"><span>Store and tracking audit</span><a href="site-audit.json">Open data</a></div>
+              <div class="source"><span>Google Ads Transparency Center</span><a href="https://adstransparency.google.com/advertiser/AR15770615733291057153?region=US">View advertiser</a></div>
+              <div class="source"><span>Tea Relief anti-inflammatory product</span><a href="https://theteareliefcompany.com/products/organic-anti-inflammatory-tea">View page</a></div>
+              <div class="source"><span>Full Leaf comparison product</span><a href="https://fullleafteacompany.com/products/organic-anti-inflammatory-tea">View page</a></div>
+              <div class="source"><span>Traditional Medicinals quality proof</span><a href="https://www.traditionalmedicinals.com/pages/quality">View page</a></div>
+              <div class="source"><span>Google Ads healthcare policy</span><a href="https://support.google.com/adspolicy/answer/176031?hl=en">View policy</a></div>
+              <div class="source"><span>Merchant Center healthcare policy</span><a href="https://support.google.com/merchants/answer/6150151?hl=en">View policy</a></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Method notes</h3>
+            <ul>
+              <li><b>Measured:</b> directly observed in Google Keyword Planner, SerpApi, Google Ads Transparency Center, public product pages, sitemap, or rendered Shopify source.</li>
+              <li><b>Modelled:</b> arithmetic based on clearly shown assumptions for decision support.</li>
+              <li><b>Assumption:</b> an input that must be replaced by client data before action.</li>
+              <li>Keyword figures target the United States in English and use Google Search only.</li>
+              <li>Volume was deduplicated when rows shared volume and both bid bounds; volume alone was never used as a duplicate key.</li>
+              <li>SerpApi usage after research: 35 of 250 monthly searches. This prospect used one successful live search credit.</li>
+              <li>Google’s top-of-page bid range is directional; actual CPC depends on the live auction and account performance.</li>
+            </ul>
+            <p class="fine">Research date: September 18, 2026. Public pages and auction results can change.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div>
+        <div class="eyebrow" style="color:#bad0c3">Bottom line</div>
+        <h2>Build the basket. Clear the claims. Then buy the demand.</h2>
+      </div>
+      <div>
+        <p>Tea Relief has enough differentiated product depth and search interest to test Google Ads seriously. A small, measured relaunch can establish the proof needed for responsible scale.</p>
+        <p class="fine">Prepared from public and planning data. Research scope was read-only; campaign, feed, tag, and website settings remain unchanged.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

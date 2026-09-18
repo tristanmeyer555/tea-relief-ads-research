@@ -1,0 +1,1568 @@
+{
+  "researched_at": "2026-09-18",
+  "source": "Google Ads Keyword Planner via active-spend USD account",
+  "targeting": {
+    "country": "US",
+    "language": "English",
+    "network": "GOOGLE_SEARCH",
+    "page_url": "https://theteareliefcompany.com/"
+  },
+  "scope_note": "Client-facing subset of the representative phrases used in the report.",
+  "sets": {
+    "inflammation": {
+      "result_count": 5,
+      "results": [
+        {
+          "text": "anti inflammatory tea",
+          "avg_monthly_searches": 27100,
+          "competition": "HIGH",
+          "competition_index": 96,
+          "low_top_of_page_bid_micros": 32771,
+          "high_top_of_page_bid_micros": 618669,
+          "low_top_of_page_bid": 0.032771,
+          "high_top_of_page_bid": 0.618669,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 14800
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 33100
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 40500
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 40500
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 40500
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 14800
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 12100
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "organic anti inflammatory tea",
+          "avg_monthly_searches": 390,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 238986,
+          "high_top_of_page_bid_micros": 1915516,
+          "low_top_of_page_bid": 0.238986,
+          "high_top_of_page_bid": 1.915516,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 260
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 260
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 390
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 390
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 320
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 170
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 260
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "tea for inflammation",
+          "avg_monthly_searches": 4400,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 37216,
+          "high_top_of_page_bid_micros": 649305,
+          "low_top_of_page_bid": 0.037216,
+          "high_top_of_page_bid": 0.649305,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 5400
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 3600
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "turmeric tea",
+          "avg_monthly_searches": 22200,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 31121,
+          "high_top_of_page_bid_micros": 946077,
+          "low_top_of_page_bid": 0.031121,
+          "high_top_of_page_bid": 0.946077,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 33100
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 33100
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 18100
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 12100
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "pain relief tea",
+          "avg_monthly_searches": 720,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 67285,
+          "high_top_of_page_bid_micros": 1185709,
+          "low_top_of_page_bid": 0.067285,
+          "high_top_of_page_bid": 1.185709,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 1000
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 590
+            }
+          ],
+          "close_variants": []
+        }
+      ]
+    },
+    "fertility": {
+      "result_count": 3,
+      "results": [
+        {
+          "text": "fertility tea",
+          "avg_monthly_searches": 2400,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 983221,
+          "high_top_of_page_bid_micros": 5256890,
+          "low_top_of_page_bid": 0.983221,
+          "high_top_of_page_bid": 5.25689,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 1900
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 1900
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 1600
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 1900
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 1900
+            }
+          ],
+          "close_variants": [
+            "tea for fertility"
+          ]
+        },
+        {
+          "text": "organic fertility tea",
+          "avg_monthly_searches": 30,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 1120000,
+          "high_top_of_page_bid_micros": 3808106,
+          "low_top_of_page_bid": 1.12,
+          "high_top_of_page_bid": 3.808106,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 30
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 30
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 10
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 20
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 40
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 90
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 90
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 20
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 20
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 20
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 20
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 30
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "women's wellness tea",
+          "avg_monthly_searches": 110,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 761259,
+          "high_top_of_page_bid_micros": 4027112,
+          "low_top_of_page_bid": 0.761259,
+          "high_top_of_page_bid": 4.027112,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 40
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 70
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 40
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 50
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 210
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 110
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 50
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 50
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 30
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 30
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 40
+            }
+          ],
+          "close_variants": []
+        }
+      ]
+    },
+    "calm_gut": {
+      "result_count": 6,
+      "results": [
+        {
+          "text": "stress relief tea",
+          "avg_monthly_searches": 4400,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 170000,
+          "high_top_of_page_bid_micros": 1082444,
+          "low_top_of_page_bid": 0.17,
+          "high_top_of_page_bid": 1.082444,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 8100
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 1900
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 1900
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 1900
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "calming tea",
+          "avg_monthly_searches": 6600,
+          "competition": "HIGH",
+          "competition_index": 98,
+          "low_top_of_page_bid_micros": 117173,
+          "high_top_of_page_bid_micros": 2000000,
+          "low_top_of_page_bid": 0.117173,
+          "high_top_of_page_bid": 2,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 5400
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 6600
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 14800
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 8100
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 8100
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 6600
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 5400
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 4400
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "sleep tea",
+          "avg_monthly_searches": 9900,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 90148,
+          "high_top_of_page_bid_micros": 1920619,
+          "low_top_of_page_bid": 0.090148,
+          "high_top_of_page_bid": 1.920619,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 14800
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 8100
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 8100
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 9900
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "digestive tea",
+          "avg_monthly_searches": 3600,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 57162,
+          "high_top_of_page_bid_micros": 1611060,
+          "low_top_of_page_bid": 0.057162,
+          "high_top_of_page_bid": 1.61106,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 5400
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 2400
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "tea for bloating",
+          "avg_monthly_searches": 3600,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 30416,
+          "high_top_of_page_bid_micros": 1600000,
+          "low_top_of_page_bid": 0.030416,
+          "high_top_of_page_bid": 1.6,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 4400
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 3600
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 2900
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "ibs tea",
+          "avg_monthly_searches": 590,
+          "competition": "HIGH",
+          "competition_index": 99,
+          "low_top_of_page_bid_micros": 252188,
+          "high_top_of_page_bid_micros": 4925559,
+          "low_top_of_page_bid": 0.252188,
+          "high_top_of_page_bid": 4.925559,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 480
+            }
+          ],
+          "close_variants": []
+        }
+      ]
+    },
+    "broad_condition": {
+      "result_count": 7,
+      "results": [
+        {
+          "text": "detox tea",
+          "avg_monthly_searches": 22200,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 154652,
+          "high_top_of_page_bid_micros": 1322291,
+          "low_top_of_page_bid": 0.154652,
+          "high_top_of_page_bid": 1.322291,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 33100
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 27100
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 18100
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 18100
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 18100
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 14800
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "organic detox tea",
+          "avg_monthly_searches": 590,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 264414,
+          "high_top_of_page_bid_micros": 1474583,
+          "low_top_of_page_bid": 0.264414,
+          "high_top_of_page_bid": 1.474583,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 320
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 480
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "herbal wellness tea",
+          "avg_monthly_searches": 70,
+          "competition": "MEDIUM",
+          "competition_index": 66,
+          "low_top_of_page_bid_micros": 677091,
+          "high_top_of_page_bid_micros": 2724740,
+          "low_top_of_page_bid": 0.677091,
+          "high_top_of_page_bid": 2.72474,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 70
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 20
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 40
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 110
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 140
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 90
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 70
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 90
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 70
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 70
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 70
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 90
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "loose leaf organic tea",
+          "avg_monthly_searches": 12100,
+          "competition": "HIGH",
+          "competition_index": 93,
+          "low_top_of_page_bid_micros": 1116665,
+          "high_top_of_page_bid_micros": 4232459,
+          "low_top_of_page_bid": 1.116665,
+          "high_top_of_page_bid": 4.232459,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 14800
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 14800
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 18100
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 22200
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 12100
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 8100
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 5400
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 9900
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 6600
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "blood pressure tea",
+          "avg_monthly_searches": 2400,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 318407,
+          "high_top_of_page_bid_micros": 1633111,
+          "low_top_of_page_bid": 0.318407,
+          "high_top_of_page_bid": 1.633111,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 2900
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 2400
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 1600
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 1900
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 1900
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "blood sugar tea",
+          "avg_monthly_searches": 720,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 189430,
+          "high_top_of_page_bid_micros": 1070259,
+          "low_top_of_page_bid": 0.18943,
+          "high_top_of_page_bid": 1.070259,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 1000
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 1000
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 880
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 590
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 590
+            }
+          ],
+          "close_variants": []
+        },
+        {
+          "text": "prostate tea",
+          "avg_monthly_searches": 390,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "low_top_of_page_bid_micros": 269747,
+          "high_top_of_page_bid_micros": 1703147,
+          "low_top_of_page_bid": 0.269747,
+          "high_top_of_page_bid": 1.703147,
+          "monthly_search_volumes": [
+            {
+              "year": "2025",
+              "month": "SEPTEMBER",
+              "monthly_searches": 320
+            },
+            {
+              "year": "2025",
+              "month": "OCTOBER",
+              "monthly_searches": 390
+            },
+            {
+              "year": "2025",
+              "month": "NOVEMBER",
+              "monthly_searches": 390
+            },
+            {
+              "year": "2025",
+              "month": "DECEMBER",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2026",
+              "month": "JANUARY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "FEBRUARY",
+              "monthly_searches": 720
+            },
+            {
+              "year": "2026",
+              "month": "MARCH",
+              "monthly_searches": 480
+            },
+            {
+              "year": "2026",
+              "month": "APRIL",
+              "monthly_searches": 320
+            },
+            {
+              "year": "2026",
+              "month": "MAY",
+              "monthly_searches": 390
+            },
+            {
+              "year": "2026",
+              "month": "JUNE",
+              "monthly_searches": 260
+            },
+            {
+              "year": "2026",
+              "month": "JULY",
+              "monthly_searches": 320
+            },
+            {
+              "year": "2026",
+              "month": "AUGUST",
+              "monthly_searches": 390
+            }
+          ],
+          "close_variants": []
+        }
+      ]
+    }
+  }
+}
